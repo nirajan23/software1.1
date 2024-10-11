@@ -9,7 +9,6 @@ connection = mysql.connector.connect(
 )
 
 
-oihoihihlihl
 
 print(connection, "connection established")
 
@@ -127,8 +126,7 @@ def main():
 
     all_airports = airport_type()
 
-    # Initialize visited goals
-    visited_goals = {}
+
 
     for airport in all_airports:
         print(
